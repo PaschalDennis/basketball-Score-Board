@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>BASKETBALL SCORE BOARD</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div>
+      <h3>HOME</h3>
+        <h1 id="home-score">0</h1>
+      <button onclick="incrementhomeone()">+1</button>
+      <button onclick="incrementhometwo()">+2</button>
+      <button onclick="incrementhomethree()">+3</button>
+    </div>
+
+    <div>
+      <button id="reset-btn" onclick="reset()">RESET</button>
+    </div>
+
+    <div>
+      <h3>GUEST</h3>
+       <h1 id="guest-score">0</h1>
+      <button onclick="incrementguestone()">+1</button>
+      <button onclick="incrementguesttwo()">+2</button>
+      <button onclick="incrementguestthree()">+3</button>
+    </div>
+  </div>
+
+<script src="index.js"></script>
+</body>
+</html>
